@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - LifeOS</title>
+    <style>
+        :root {
+            --primary: #315CEB;
+            --background: #F5F7FB;
+            --surface: #FFFFFF;
+            --text-main: #172033;
+            --text-secondary: #64748B;
+            --border: #E2E8F0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: var(--surface);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 16px;
+        }
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 28px;
+            color: var(--text-main);
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            padding-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">Last updated: October 23, 2026 | <strong>LifeOS</strong> Personal Life Management System</div>
+
+        <p>Welcome to <strong>LifeOS</strong> ("we", "our", or "us"). We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how your information is collected, used, and safeguarded when you use our Android application.</p>
+
+        <h2>1. Information We Collect</h2>
+        <p>LifeOS offers two usage modes:</p>
+        <ul>
+            <li><strong>Guest Mode (Local Only):</strong> When you use LifeOS as a guest, your productivity records (tasks, notes, goals, and habits) are stored securely and exclusively on your local device using Android Room database storage. We do not collect or upload guest data to any cloud servers.</li>
+            <li><strong>Authenticated Mode (Cloud Sync):</strong> If you choose to create an account and sign in (via Firebase Authentication), we collect your email address and authentication credentials. Productivity data you create is synchronized securely with your private user-scoped Cloud Firestore database.</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the information we collect solely to provide, maintain, and improve the LifeOS application:</p>
+        <ul>
+            <li>Managing your user authentication and account security.</li>
+            <li>Storing and synchronizing your personal tasks, smart notes, goals, and habits across your authenticated devices.</li>
+            <li>Providing offline persistence and local preferences via Jetpack DataStore.</li>
+        </ul>
+
+        <h2>3. Data Security & Storage</h2>
+        <p>We implement robust security practices:</p>
+        <ul>
+            <li>All cloud data is stored securely in Google Cloud Firestore protected by zero-trust user ownership security rules (ensuring only you can access your records).</li>
+            <li>We do not sell, trade, or transfer your personal productivity records or account information to third parties.</li>
+            <li>Passwords are securely managed by Firebase Authentication and are never accessible to us or stored locally in plain text.</li>
+        </ul>
+
+        <h2>4. Data Deletion and Account Management</h2>
+        <p>You have full control over your data:</p>
+        <ul>
+            <li>You can clear local guest data at any time by clearing app storage or uninstalling the application.</li>
+            <li>If you have a registered account, you can request permanent account and cloud data deletion directly from the <strong>Settings</strong> screen within the app.</li>
+        </ul>
+
+        <h2>5. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or suggestions about this Privacy Policy, please contact us at support support@lifeos.app.</p>
+
+        <div class="footer">
+            &copy; 2026 LifeOS. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
